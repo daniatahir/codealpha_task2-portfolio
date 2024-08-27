@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dania Tahir | Home</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <nav>
+            <img class="logo" src="images/logo.png">
+            <ul id="sideMenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+          <i id="menu" class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+           <i id="menu" class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Undergraduate Software Engineer <span><i class="fa-solid fa-laptop-code"></i></span></p>
+            <h1>Hi! <span> <i class="fa-solid fa-ghost"></i></span> Its me Dania Tahir.
+                <br>
+                Blending creativity and technology<br> to build the digital world<br> of tomorrow.
+            </h1>
+        </div>
+    </div>
+</div>
+<!----about------>
+
+<div id="about-section">
+    <div class="image-side">
+        <img src="images/about.jpg">
+    </div>
+    <div  class="text-side">
+        <h>About Me</h>
+        <p>As a dedicated Software Engineering student, I consistently achieve good grades and have hands-on experience with various programming languages.<br><br> Passionate about continuous learning, I actively participate in projects and competitions, particularly in web development, where I have earned several certificates. I am committed to further advancing my skills and knowledge to excel in the field.</p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab('education')">Education</p>
+            <p class="tab-links" onclick="openTab('skills')">Skills</p>
+        </div>
+        <div class="tab-contents active-tab" id="education">
+            <ul>
+                <li><span>Karachi Institute of Economics & Technology (KIET)</span><br>Pursuing Bachelor of Engineering in Software Engineering<br>Grade: 3.88 CGPA</li>
+                <li><span>Govt Degree College Malir Cantt</span><br>Intermediate | Pre-Engineering<br>Grade: "A" 75%</li>
+                <li><span>King Edward Grammar School</span><br>Matric | Science<br>Grade: "A+" 94%</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="skills">
+            <ul>
+                <li><span>Front-end Web Development</span><br>HTML<br>Cascading Style Sheets (CSS)<br>Javascript</li>
+                <li><span>Programming Languages</span><br>Python (Basic)<br>C language<br>C# with Graphical User Interface (GUI)<br></li>
+            </ul>
+        </div>
+    </div>
+    
+</div>
+
+<!--------projects--------->
+<div id="projects">
+    <div class="container">
+        <h>My Work</h>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/website.png">
+                <div class="layer">
+                    <h3>Restaurant Website</h3>
+                    <p>This is a dynamic and visually appealing frontend website for Two Rings Restaurant, aiming to provide an immersive online experience for users.</p>
+                    <a href="website.pdf" download target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/oop.png">
+                <div class="layer">
+                    <h3>Voting System</h3>
+                    <p>An application to cast vote results would be announced with the 
+                        most transparency.</p>
+                    <a href="voting.pdf" download target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pf.png">
+                <div class="layer">
+                    <h3>Hotel Management System</h3>
+                    <p>This is a software program designed to streamline and automate the Efficient Customer Management and User-Friendly Interface for hotel staff to interact with the system efficiently.
+                        </p>
+                    <a href="pf.pdf" download target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+            <div class="hidden">
+            <div class="work">
+                <img src="images/weather.JPG">
+                <div class="layer">
+                    <h3>Weather Forecast Application</h3>
+                    <p>This is a software program designed to check weather condition of any place by city name.
+                        </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/convertor.JPG">
+                <div class="layer">
+                    <h3>Currency Convertor</h3>
+                    <p>This is a software program designed to efficiently convert currency of any country of your choice.
+                        </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ttt.JPG">
+                <div class="layer">
+                    <h3>Tic Tac Toe</h3>
+                    <p>This is a Tic Tac Toe game designed with all the game logics, you can play and get the transparent results.
+                        </p>
+                    </div>
+            </div>
+        </div>
+        
+        <button class="btn">See More</button>
+        <button class="btn2">See Less</button>
+        <h3 class="hehe">Heloo</h3>
+    </div>
+</div>
+
+<!--------Certificates------->
+<div id="certificates">
+    <div class="container">
+        <h2>Achievements</h2>
+        <div class="certi-list">
+            <div class="list">
+                <div class="text-list">
+                    <i class="fa-solid fa-code"></i>
+                <h4>Web Designing Runner up</h4>
+                <p>Participated in Web Designing competetion in SPEC'24 of KIET University Main Campus.</p>
+            </div>
+            <a href="images/web.jpg" target="_blank">Learn More<i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            <div class="list">
+                <div class="text-list image">
+                <img src="images/award2.jpg">
+            </div>
+            </div>
+            <div class="list">
+                <div class="text-list">
+                    <i class="fa-solid fa-code-branch"></i>
+                <h4>Fundaments of Electronics Project Winner</h4>
+
+                <p>Earned first position in semester end project of FE in whole batch.</p>
+            </div>
+            <a href="images/fe.jpg" target="_blank">Learn More<i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-------Contact------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i>daniyatahir2@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>03363769426</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/daniiyyy._/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/dania-tahir-304601303/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/daniatahir" target="_blank"><i class="fa-brands fa-square-github"></i></i></a>
+                    
+                </div>
+                <a href="DANIA TAHIR.pdf" target="_blank" class="btn"><i class="fa-solid fa-download"></i> My Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button class="btn" type="submit">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+         <p>Copyright <i class="fa-solid fa-copyright"></i> dania.</p>
+    </div>
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzBMzBPF2kPwu4DErZo2Reu2SBxdSBngUysEDRIH3iI5BG7I8XRb8rgsQUldG8T4MjC/exec';
+    const form = document.forms['submit-to-google-sheet']
+  let msg=document.querySelector("#msg");
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
